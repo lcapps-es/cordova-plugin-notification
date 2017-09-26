@@ -1,5 +1,8 @@
 # Cordova Plugin Custom Notification
 
+PLUGIN IS NOT WORKING! STILL IN DEVELOPMENT PHASE :(
+
+Also, if you want to contribute, contact me!
 
 ## Installation
 ### iOS
