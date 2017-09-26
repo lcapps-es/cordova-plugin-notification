@@ -1,0 +1,106 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXFileReference section */
+		E7E02D421F7AD68100C435FB /* package.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = package.json; sourceTree = "<group>"; };
+		E7E02D431F7AD6E900C435FB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E7E02D441F7AD91E00C435FB /* plugin.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = plugin.xml; sourceTree = "<group>"; };
+		E7E02D451F7AD9BD00C435FB /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E7E02D461F7ADA3E00C435FB /* CordovaPluginNotification.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = CordovaPluginNotification.js; sourceTree = "<group>"; };
+		E7E02D471F7ADB7600C435FB /* CordovaPluginNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CordovaPluginNotification.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		E7E02D371F7AD52600C435FB = {
+			isa = PBXGroup;
+			children = (
+				E7E02D451F7AD9BD00C435FB /* LICENSE */,
+				E7E02D441F7AD91E00C435FB /* plugin.xml */,
+				E7E02D431F7AD6E900C435FB /* README.md */,
+				E7E02D421F7AD68100C435FB /* package.json */,
+				E7E02D3F1F7AD57700C435FB /* src */,
+				E7E02D3E1F7AD55B00C435FB /* www */,
+			);
+			sourceTree = "<group>";
+		};
+		E7E02D3E1F7AD55B00C435FB /* www */ = {
+			isa = PBXGroup;
+			children = (
+				E7E02D461F7ADA3E00C435FB /* CordovaPluginNotification.js */,
+			);
+			path = www;
+			sourceTree = "<group>";
+		};
+		E7E02D3F1F7AD57700C435FB /* src */ = {
+			isa = PBXGroup;
+			children = (
+				E7E02D401F7AD58200C435FB /* ios */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		E7E02D401F7AD58200C435FB /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				E7E02D471F7ADB7600C435FB /* CordovaPluginNotification.swift */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		E7E02D381F7AD52600C435FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+			};
+			buildConfigurationList = E7E02D3B1F7AD52600C435FB /* Build configuration list for PBXProject "cordova-plugin-notification" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E7E02D371F7AD52600C435FB;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		E7E02D3C1F7AD52600C435FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		E7E02D3D1F7AD52600C435FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7E02D3B1F7AD52600C435FB /* Build configuration list for PBXProject "cordova-plugin-notification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7E02D3C1F7AD52600C435FB /* Debug */,
+				E7E02D3D1F7AD52600C435FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7E02D381F7AD52600C435FB /* Project object */;
+}

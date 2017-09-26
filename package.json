@@ -1,0 +1,25 @@
+{
+  "name": "cordova-plugin-notification",
+  "version": "0.0.1",
+  "description": "Cordova Custom Notification Plugin",
+  "cordova": {
+    "id": "cordova-plugin-notification",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lmmartinb/cordova-plugin-notification.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "Luis Miguel Martín <lm.martinb@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lmmartinb/cordova-plugin-notification/issues"
+  },
+  "homepage": "https://github.com/lmmartinb/cordova-plugin-notification#readme"
+}
